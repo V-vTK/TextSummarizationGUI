@@ -22,7 +22,8 @@
    
    Chat interface and summarization methods.
    
-   ![NVIDIA_Share_YyVfjPrdU5](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/45470733-58bc-45a6-bb00-f126b4b977f7)
+   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/45470733-58bc-45a6-bb00-f126b4b977f7" width=80% height=80%>
+   
    Explanatory modules (opened by clicking the light bulb under each output)
 
    
@@ -35,10 +36,12 @@
 
  # Architecture
    ### Docker architecture:
-   ![rect235](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/0af5913e-4866-4e08-9785-8b7d2efd1278)
+
+   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/0af5913e-4866-4e08-9785-8b7d2efd1278" width=60% >
 
    ### Manual installation architecture:
-   ![rect236](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/53e2adce-bfa2-476d-9973-ce0aa038cf5e)
+
+   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/53e2adce-bfa2-476d-9973-ce0aa038cf5e" width=60% >
 
    
  # Evaluation results
