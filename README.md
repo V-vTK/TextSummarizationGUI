@@ -14,7 +14,7 @@
    The graphical user interface is made with React (CRA), and backend is made with Python utilizing the Flask web framework. The backend and frontend are connected and launched via a docker-compose.
    Evaluation is done using ROUGE and the reference summaries are created using [GPT4All's](https://gpt4all.io/index.html) API interface.
    ## The GUI
-   ![NVIDIA_Share_FoxtJrD1rK](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/f2f1716c-2173-4b90-88a1-ab6a5d1fc6ec)
+   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/f2f1716c-2173-4b90-88a1-ab6a5d1fc6ec" width=80% height=80%>
    Homescreen
    
    ![NVIDIA_Share_lySQ3Mv331](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/66c77458-178f-4d45-bdba-d59342814361)
@@ -43,23 +43,25 @@
    SummEval:
    
    ![python_qnLh2HqlSV](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/7be6a7b4-00c6-43ac-a6d6-b2b59b0ccbea)
-
+   ROUGE-1
    
    ![python_PqVezO78vD](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/62df54c2-47fa-42f3-af61-f245fd2569b7)
-
+   ROUGE-2
    
    ![python_Kd352QZEVq](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/0aebd362-59f2-4919-ae8f-439440af5e2a)
+   ROUGE-L (sentence level)
    
    FalconROUGE:
    
    ![python_oe1lurgy2H](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/0bbde0cf-f8b0-49b8-b0ce-4eb9efca4479)
-
+   ROUGE-1
    
    ![python_teyHu6Ni8a](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/22103de8-0103-4cfb-a95d-e174327aa669)
-
+   ROUGE-2
    
    ![python_3OP8sVht0g](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/892bd993-762d-4213-a150-9aca7909492a)
-
+   ROUGE-L (sentence level)
+   
    Datasets compared:
    
    ![NVIDIA_Share_agnSplvo4t](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/ceb3af8c-b420-44bc-abe0-c6c02bebd409)
@@ -69,9 +71,13 @@
  
  # Limitations and problems
    GPT4All limitations - The falcon model can't summarize texts that are too large. Summarization also loses efficacy as the text size increases, and the output migh differ significantly from the expected summary.
+   
    Abstractive model - The abstractive method was implemented towards the end of the project. It significantly slows down the application and should be moved to a different container to relieve the Flask backend from the processing.
+   
    CSS framework - Without a CSS framework, like Tailwind.css, the CSS is quite irregular and repetitive.
+   
    JSON database - The JSON database offered a fast way to start developing the application. The application is also easier to start manually without a dedicated database but as the application grew the JSON database got outdated.
+   
    Functionality first approach - there is no data validation between the backend and frontend and the documentation is quite lacking.
 
 The project was extremely fun to work on. I got to do almost all of the architecture decisions which was both fun and a valuable learning journey with some mistakes and challenged along the way. I also got to work with a diverse variety of tools including but not limited to: Docker, React, Python, Flask, different api interfaces, batch scripts, Git, React and Python charting libraries, natural language processing libaries, and more ...
