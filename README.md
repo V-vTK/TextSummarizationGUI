@@ -14,15 +14,15 @@
    The graphical user interface is made with React (CRA), and backend is made with Python utilizing the Flask web framework. The backend and frontend are connected and launched via a docker-compose.
    Evaluation is done using ROUGE and the reference summaries are created using [GPT4All's](https://gpt4all.io/index.html) API interface.
    ## The GUI
-   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/f2f1716c-2173-4b90-88a1-ab6a5d1fc6ec" width=80% height=80%>
+   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/f2f1716c-2173-4b90-88a1-ab6a5d1fc6ec">
    
    Homescreen
    
-   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/66c77458-178f-4d45-bdba-d59342814361" width=80% height=80%>
+   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/66c77458-178f-4d45-bdba-d59342814361">
    
    Chat interface and summarization methods.
    
-   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/45470733-58bc-45a6-bb00-f126b4b977f7" width=80% height=80%>
+   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/45470733-58bc-45a6-bb00-f126b4b977f7">
    
    Explanatory modules (opened by clicking the light bulb under each output)
 
