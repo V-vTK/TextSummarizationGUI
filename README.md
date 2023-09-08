@@ -15,9 +15,11 @@
    Evaluation is done using ROUGE and the reference summaries are created using [GPT4All's](https://gpt4all.io/index.html) API interface.
    ## The GUI
    <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/f2f1716c-2173-4b90-88a1-ab6a5d1fc6ec" width=80% height=80%>
+   
    Homescreen
    
-   ![NVIDIA_Share_lySQ3Mv331](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/66c77458-178f-4d45-bdba-d59342814361)
+   <img src="https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/66c77458-178f-4d45-bdba-d59342814361" width=80% height=80%>
+   
    Chat interface and summarization methods.
    
    ![NVIDIA_Share_YyVfjPrdU5](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/45470733-58bc-45a6-bb00-f126b4b977f7)
