@@ -1,0 +1,19 @@
+.normal-scrollbar {
+    scrollbar-width: auto !important;
+    scrollbar-color: #393d4d #282c34 !important;
+  }
+  
+  .normal-scrollbar::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  .normal-scrollbar::-webkit-scrollbar-track {
+    background: #282c34 !important;
+  }
+  
+  .normal-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #393d4d !important;
+    border-radius: 7px !important;
+    border: 3px solid #393d4d !important;
+  }
+  

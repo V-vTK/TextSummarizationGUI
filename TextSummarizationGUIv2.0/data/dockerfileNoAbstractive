@@ -1,0 +1,20 @@
+# Python backend, replace the dockerfile with this file if you don't want the abstractive module enabled
+FROM python:3.9-alpine
+
+WORKDIR /app
+
+COPY requirements.txt ./
+
+RUN apk update && apk add --no-cache libxml2-dev libxslt-dev build-base && \
+    pip install --no-cache-dir -r requirements.txt && \
+    pip install "sumy[LSA]" && \
+    python -c "import nltk; nltk.download('punkt')" && \
+    pip cache purge
+
+COPY . ./
+
+EXPOSE 8000
+
+EXPOSE 4891
+
+CMD python app.py
