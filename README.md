@@ -16,10 +16,13 @@
    ## The GUI
    ![NVIDIA_Share_FoxtJrD1rK](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/f2f1716c-2173-4b90-88a1-ab6a5d1fc6ec)
    Homescreen
+   
    ![NVIDIA_Share_lySQ3Mv331](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/66c77458-178f-4d45-bdba-d59342814361)
    Chat interface and summarization methods.
+   
    ![NVIDIA_Share_YyVfjPrdU5](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/45470733-58bc-45a6-bb00-f126b4b977f7)
    Explanatory modules (opened by clicking the light bulb under each output)
+
    
    The application also hosts evaluation scripts outside the graphical user interface.
    **evaluation/SummEval** uses the material and golden summaries provided by [SummEval](https://github.com/Yale-LILY/SummEval)
@@ -35,26 +38,37 @@
    Manual installation architecture
  # Evaluation results
    SummEval:
+   
    ![python_qnLh2HqlSV](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/7be6a7b4-00c6-43ac-a6d6-b2b59b0ccbea)
+
+   
    ![python_PqVezO78vD](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/62df54c2-47fa-42f3-af61-f245fd2569b7)
+
+   
    ![python_Kd352QZEVq](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/0aebd362-59f2-4919-ae8f-439440af5e2a)
    
    FalconROUGE:
+   
    ![python_oe1lurgy2H](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/0bbde0cf-f8b0-49b8-b0ce-4eb9efca4479)
+
+   
    ![python_teyHu6Ni8a](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/22103de8-0103-4cfb-a95d-e174327aa669)
+
+   
    ![python_3OP8sVht0g](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/892bd993-762d-4213-a150-9aca7909492a)
 
    Datasets compared:
-   ![NVIDIA_Share_PV1EqZAzTp](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/3651fef5-4230-4a3f-8329-eb63ee566c27)
+   
+   ![NVIDIA_Share_agnSplvo4t](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/ceb3af8c-b420-44bc-abe0-c6c02bebd409)
+
 
    The evaluation scripts can be found under the evaluation folder.
  
  # Limitations and problems
-   GPT4All limitations -
-   Abstractive model - 
-   **Problems with code and architecture:**
-    CSS framework - 
-    JSON database - 
-    Functionality first - 
+   GPT4All limitations - The falcon model can't summarize texts that are too large. Summarization also loses efficacy as the text size increases, and the output migh differ significantly from the expected summary.
+   Abstractive model - The abstractive method was implemented towards the end of the project. It significantly slows down the application and should be moved to a different container to relieve the Flask backend from the processing.
+   CSS framework - Without a CSS framework, like Tailwind.css, the CSS is quite irregular and repetitive.
+   JSON database - The JSON database offered a fast way to start developing the application. The application is also easier to start manually without a dedicated database but as the application grew the JSON database got outdated.
+   Functionality first approach - there is no data validation between the backend and frontend and the documentation is quite lacking.
 
-
+The project was extremely fun to work on. I got to do almost all of the architecture decisions which was both fun and a valuable learning journey with some mistakes and challenged along the way. I also got to work with a diverse variety of tools including but not limited to: Docker, React, Python, Flask, different api interfaces, batch scripts, Git, React and Python charting libraries, natural language processing libaries, and more ...
