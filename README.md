@@ -32,10 +32,13 @@
    The user can define the source text via a link list. The evaluation script web scrapes the links and generates an "N" ammount of golden summaries for the ROUGE evaluation. 
 
  # Architecture
-   ![rect237](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/5994cc76-3cc0-499e-b294-eccb851dc704)
-   Docker architecture
-   ![rect659](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/8f1bc823-959c-4487-8fa8-0e76b85f7030)
-   Manual installation architecture
+   ### Docker architecture:
+   ![rect235](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/0af5913e-4866-4e08-9785-8b7d2efd1278)
+
+   ### Manual installation architecture:
+   ![rect236](https://github.com/V-vTK/TextSummarizationGUI/assets/97534406/53e2adce-bfa2-476d-9973-ce0aa038cf5e)
+
+   
  # Evaluation results
    SummEval:
    
