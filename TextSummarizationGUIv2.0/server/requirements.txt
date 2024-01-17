@@ -6,3 +6,4 @@ numpy==1.24.3
 openai==0.27.8
 tensorflow==2.13.0
 transformers==4.30.2
+werkzeug==2.2.2
